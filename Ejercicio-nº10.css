@@ -1,0 +1,39 @@
+.contenedor{
+    display: flex;
+    padding: 1rem;
+    gap: 0.5rem;
+    background-color: black;
+}
+.seccion{
+    
+}
+.seccion1{
+    background-color: red;
+    border: 2px solid black;
+    padding: 1rem;
+    min-width: ;
+}
+
+.seccion2{
+    flex-grow: 1;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 1rem;
+    min-width: 400px;
+
+}
+
+
+@media (max-width: 640px) {
+    .contenedor{
+        flex-wrap: wrap-reverse;
+    }
+    .seccion1{
+        display: flex;
+        background-color: green;
+        flex-direction: row;
+        
+    }
+    
+
+}
